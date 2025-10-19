@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Elite Homes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar-glass">
+        <div class="nav-container">
+            <div class="brand">
+                <span class="brand-icon">🌟</span>
+                <h1>Elite Homes</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="nav-active">Contact</a></li>
+                <li><a href="#" class="btn-nav">List Property</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+        <div class="contact-hero-bg">
+            <img src="elite homes.png" alt="Contact Elite Homes">
+        </div>
+        <div class="contact-hero-overlay">
+            <div class="contact-hero-content">
+                <span class="hero-badge">💬 We're Here to Help</span>
+                <h1>Let's Make Your <span class="gradient-text">Dream Home</span> Reality</h1>
+                <p>Our team of experts is ready to assist you 24/7. Get in touch and start your journey today!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Contact Cards -->
+    <section class="quick-contact-section">
+        <div class="section-container">
+            <div class="quick-contact-grid">
+                <div class="quick-contact-card">
+                    <div class="qc-icon">📞</div>
+                    <h3>Call Us Now</h3>
+                    <p>03497437349</p>
+                    <p>03497437349</p>
+                    <span class="qc-status">🟢 Available 24/7</span>
+                </div>
+                <div class="quick-contact-card">
+                    <div class="qc-icon">📧</div>
+                    <h3>Email Us</h3>
+                    <p>saheebraza3@gmail.com/p>
+                    <p>support@elitehomes.pk</p>
+                    <span class="qc-status">⚡ Quick Response</span>
+                </div>
+                <div class="quick-contact-card">
+                    <div class="qc-icon">💬</div>
+                    <h3>Live Chat</h3>
+                    <p>Instant messaging support</p>
+                    <button class="btn-chat">Start Chat</button>
+                    <span class="qc-status">🟢 Online Now</span>
+                </div>
+                <div class="quick-contact-card">
+                    <div class="qc-icon">📍</div>
+                    <h3>Visit Office</h3>
+                    <p>Plot 456, Block X</p>
+                    <p>Clifton, Karachi</p>
+                    <span class="qc-status">🕐 Mon-Sat: 9AM-8PM</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Contact Section -->
+    <section class="main-contact-section">
+        <div class="section-container">
+            <div class="contact-layout">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <div class="form-header">
+                        <span class="subtitle">Get In Touch</span>
+                        <h2>Send Us a <span class="highlight">Message</span></h2>
+                        <p>Fill out the form and our team will respond within 2 hours</p>
+                    </div>
+                    
+                    <form class="modern-contact-form">
+                        <div class="form-grid">
+                            <div class="input-group">
+                                <label for="fullname">Full Name *</label>
+                                <input type="text" id="fullname" placeholder="Enter your full name" required>
+                                <span class="input-icon">👤</span>
+                            </div>
+                            
+                            <div class="input-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" placeholder="your@email.com" required>
+                                <span class="input-icon">📧</span>
+                            </div>
+                        </div>
+
+                        <div class="form-grid">
+                            <div class="input-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" placeholder="+92 333 1234567" required>
+                                <span class="input-icon">📱</span>
+                            </div>
+                            
+                            <div class="input-group">
+                                <label for="interest">I'm Interested In *</label>
+                                <select id="interest" required>
+                                    <option value="">Select an option</option>
+                                    <option value="buying">🏠 Buying Property</option>
+                                    <option value="selling">💰 Selling Property</option>
+                                    <option value="renting">🔑 Renting Property</option>
+                                    <option value="investment">📈 Investment</option>
+                                    <option value="consultation">💼 Free Consultation</option>
+                                </select>
+                                <span class="input-icon">🎯</span>
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="budget">Budget Range</label>
+                            <select id="budget">
+                                <option value="">Select budget range</option>
+                                <option value="1-3">PKR 1-3 Crore</option>
+                                <option value="3-5">PKR 3-5 Crore</option>
+                                <option value="5-10">PKR 5-10 Crore</option>
+                                <option value="10+">PKR 10+ Crore</option>
+                            </select>
+                            <span class="input-icon">💵</span>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" rows="5" placeholder="Tell us about your requirements..." required></textarea>
+                            <span class="input-icon">✍️</span>
+                        </div>
+
+                        <button type="submit" class="btn-submit-form">
+                            <span>Send Message</span>
+                            <span class="btn-arrow">→</span>
+                        </button>
+                    </form>
+
+                    <div class="form-assurance">
+                        <div class="assurance-item">
+                            <span>✅</span>
+                            <p>2-Hour Response Time</p>
+                        </div>
+                        <div class="assurance-item">
+                            <span>🔒</span>
+                            <p>100% Secure & Confidential</p>
+                        </div>
+                        <div class="assurance-item">
+                            <span>🎁</span>
+                            <p>Free Consultation</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Information Sidebar -->
+                <div class="contact-info-sidebar">
+                    <div class="info-box">
+                        <h3>📞 Phone Support</h3>
+                        <div class="info-details">
+                            <p><strong>Main Office:</strong></p>
+                            <p>03497437349</p>
+                            <p>+92 21 3456789</p>
+                            <br>
+                            <p><strong>WhatsApp:</strong></p>
+                            <p>03497437349</p>
+                            <br>
+                            <p class="timing">Mon-Sat: 9:00 AM - 8:00 PM</p>
+                            <p class="timing">Sunday: 10:00 AM - 4:00 PM</p>
+                        </div>
+                    </div>
+
+                    <div class="info-box">
+                        <h3>📧 Email Support</h3>
+                        <div class="info-details">
+                            <p><strong>General Inquiries:</strong></p>
+                            <p>info@elitehomes.pk</p>
+                            <br>
+                            <p><strong>Sales Department:</strong></p>
+                            <p>sales@elitehomes.pk</p>
+                            <br>
+                            <p><strong>Support:</strong></p>
+                            <p>support@elitehomes.pk</p>
+                        </div>
+                    </div>
+
+                    <div class="info-box">
+                        <h3>📍 Office Location</h3>
+                        <div class="info-details">
+                            <p><strong>Head Office:</strong></p>
+                            <p>Plot No. 456, Block X</p>
+                            <p>Main Clifton Road</p>
+                            <p>Clifton, Karachi - 75600</p>
+                            <p>Pakistan</p>
+                            <br>
+                            <button class="btn-directions">Get Directions</button>
+                        </div>
+                    </div>
+
+                    <div class="info-box social-box">
+                        <h3>🌐 Follow Us</h3>
+                        <div class="social-buttons">
+                            <a href="#" class="social-btn-large">📘 Facebook</a>
+                            <a href="#" class="social-btn-large">📷 Instagram</a>
+                            <a href="#" class="social-btn-large">💼 LinkedIn</a>
+                            <a href="#" class="social-btn-large">🐦 Twitter</a>
+                            <a href="#" class="social-btn-large">📺 YouTube</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="section-container">
+            <div class="section-title">
+                <span class="subtitle">Find Us</span>
+                <h2>Visit Our <span class="highlight">Office</span></h2>
+            </div>
+            <div class="map-container">
+                <img src="location.avif" alt="Elite Homes Office Location">
+                <div class="map-info-overlay">
+                    <div class="map-info-card">
+                        <h4>🏢 Elite Homes Head Office</h4>
+                        <p>Plot 456, Block X, Clifton</p>
+                        <p>Karachi, Pakistan</p>
+                        <button class="btn-map-directions">🗺️ Open in Maps</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-contact-section">
+        <div class="section-container">
+            <div class="section-title">
+                <span class="subtitle">Common Questions</span>
+                <h2>Frequently Asked <span class="highlight">Questions</span></h2>
+            </div>
+            <div class="faq-grid-modern">
+                <div class="faq-card-modern">
+                    <div class="faq-icon">❓</div>
+                    <h3>How quickly can I schedule a property viewing?</h3>
+                    <p>You can schedule a viewing within 24 hours! Simply contact us and we'll arrange a convenient time for you to visit any property.</p>
+                </div>
+                
+                <div class="faq-card-modern">
+                    <div class="faq-icon">💰</div>
+                    <h3>Are there any consultation charges?</h3>
+                    <p>No! All our consultations are completely free. We only charge a commission after a successful property transaction is completed.</p>
+                </div>
+                
+                <div class="faq-card-modern">
+                    <div class="faq-icon">📄</div>
+                    <h3>What documents do I need to buy property?</h3>
+                    <p>Basic documents include CNIC, proof of income, bank statements. Our team will guide you through the complete documentation process.</p>
+                </div>
+                
+                <div class="faq-card-modern">
+                    <div class="faq-icon">⏱️</div>
+                    <h3>How long does the buying process take?</h3>
+                    <p>Typically 2-4 weeks depending on documentation. We ensure a smooth, fast, and secure process with complete legal verification.</p>
+                </div>
+                
+                <div class="faq-card-modern">
+                    <div class="faq-icon">🏠</div>
+                    <h3>Do you offer home loan assistance?</h3>
+                    <p>Yes! We have partnerships with major banks and can help you secure the best home financing options available.</p>
+                </div>
+                
+                <div class="faq-card-modern">
+                    <div class="faq-icon">📱</div>
+                    <h3>Can I get virtual property tours?</h3>
+                    <p>Absolutely! We offer high-quality virtual tours, video calls, and 360° property views for your convenience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Contact Banner -->
+    <section class="emergency-contact-banner">
+        <div class="emergency-content">
+            <div class="emergency-icon">🚨</div>
+            <div class="emergency-text">
+                <h3>Need Urgent Assistance?</h3>
+                <p>Our emergency hotline is available 24/7 for urgent property matters</p>
+            </div>
+            <a href="tel:+923331234567" class="btn-emergency">📞 Call Emergency: +92 333 1234567</a>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="cta-content">
+            <div class="cta-text">
+                <h2>Ready to Start Your Property Journey?</h2>
+                <p>Our expert team is waiting to help you find your perfect home</p>
+            </div>
+            <button class="btn-cta-large">🎯 Book Free Consultation</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-modern">
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <h2>🌟 Elite Homes</h2>
+                    <p>Redefining luxury living since 2010. Your trusted partner in finding exceptional properties that match your lifestyle.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">📘</a>
+                        <a href="#" class="social-icon">📷</a>
+                        <a href="#" class="social-icon">🐦</a>
+                        <a href="#" class="social-icon">💼</a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Properties</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Buy Property</a></li>
+                        <li><a href="#">Sell Property</a></li>
+                        <li><a href="#">Rent Property</a></li>
+                        <li><a href="#">Investment</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Get In Touch</h3>
+                    <p>📞 +92 333 1234567</p>
+                    <p>📧 info@elitehomes.pk</p>
+                    <p>📍 Karachi, Pakistan</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Elite Homes. All Rights Reserved. Designed with ❤️</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
